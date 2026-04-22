@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.finalproject.universitymanagementsystem.CellControllers.AdminFacultyController">
+
+    <!-- TOP BAR: Search + Add Faculty -->
+    <top>
+        <HBox spacing="10" alignment="CENTER_LEFT">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+
+            <Label text="Search Faculties:"/>
+            <TextField fx:id="searchField" promptText="Enter name..." />
+
+            <Button text="Add Faculty" onAction="#onAddFaculty" />
+        </HBox>
+    </top>
+
+    <!-- CENTER: The ListView of faculty cards -->
+    <center>
+        <ListView fx:id="facultyListView" prefWidth="800" />
+    </center>
+</BorderPane>

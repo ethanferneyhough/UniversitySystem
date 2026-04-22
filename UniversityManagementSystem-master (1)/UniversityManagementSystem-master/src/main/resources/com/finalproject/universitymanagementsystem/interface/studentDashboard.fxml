@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+       <HBox alignment="CENTER_LEFT" prefHeight="75.0" prefWidth="800.0">
+             <children>
+                 <Pane prefHeight="75.0" prefWidth="15.0" />
+                 <Label prefHeight="26.0" prefWidth="300.0" text="Current Academic Progress:  ">
+                     <font>
+                         <Font name="Calibri" size="22.0" />
+                     </font>
+                 </Label>
+                 <ProgressBar maxWidth="1.7976931348623157E308" prefHeight="50.0" prefWidth="450.0" progress="0.0" translateX="-25.0" HBox.hgrow="ALWAYS" />
+             </children>
+         </HBox>
+         <HBox alignment="CENTER" prefHeight="40.0" prefWidth="1000.0">
+             <children>
+                 <Label alignment="CENTER" maxWidth="Infinity" prefHeight="40.0" prefWidth="400.0" style="-fx-border-color: a0a0a0; -fx-border-radius: 5; -fx-background-color: efefef; -fx-background-radius: 5;" text="Upcoming Courses" textAlignment="CENTER" HBox.hgrow="ALWAYS">
+                     <font>
+                         <Font name="Calibri Bold" size="20.0" />
+                     </font>
+                 </Label>
+                 <Label alignment="CENTER" maxWidth="Infinity" prefHeight="40.0" prefWidth="400.0" style="-fx-border-color: a0a0a0; -fx-border-radius: 5; -fx-background-color: efefef; -fx-background-radius: 5;" text="Registered Events" textAlignment="CENTER" HBox.hgrow="ALWAYS">
+                     <font>
+                         <Font name="Calibri Bold" size="20.0" />
+                     </font>
+                 </Label>
+             </children>
+         </HBox>
+         <HBox maxHeight="Infinity" prefHeight="385.0" prefWidth="800.0" VBox.vgrow="ALWAYS">
+             <children>
+                 <ListView maxHeight="Infinity" maxWidth="Infinity" prefHeight="285.0" prefWidth="400.0" HBox.hgrow="ALWAYS" />
+                 <ListView maxHeight="Infinity" maxWidth="Infinity" prefHeight="285.0" prefWidth="400.0" HBox.hgrow="ALWAYS" />
+             </children>
+         </HBox>
+   </children>
+</VBox>

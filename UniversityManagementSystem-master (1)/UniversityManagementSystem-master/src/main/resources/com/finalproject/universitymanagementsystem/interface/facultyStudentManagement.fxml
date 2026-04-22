@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.finalproject.universitymanagementsystem.ListController">
+    <children>
+          <HBox alignment="CENTER" prefHeight="50.0" prefWidth="800.0" style="-fx-background-color: a0a0a0; -fx-border-color: fefefe;">
+              <children>
+                   <Label alignment="CENTER" maxWidth="Infinity" prefHeight="50.0" prefWidth="800.0" style="-fx-border-color: a0a0a0; -fx-border-radius: 5; -fx-background-color: efefef; -fx-background-radius: 5;" text="Student List" textAlignment="CENTER" HBox.hgrow="ALWAYS">
+                      <font>
+                          <Font name="Calibri Bold" size="24.0" />
+                      </font>
+                  </Label>
+              </children>
+          </HBox>
+          <HBox maxHeight="Infinity" prefHeight="360.0" prefWidth="800.0" VBox.vgrow="ALWAYS">
+              <children>
+                  <ListView fx:id="facultyStudentList" maxHeight="Infinity" maxWidth="Infinity" prefHeight="350.0" prefWidth="800.0" HBox.hgrow="ALWAYS" />
+              </children>
+          </HBox>
+    </children>
+</VBox>

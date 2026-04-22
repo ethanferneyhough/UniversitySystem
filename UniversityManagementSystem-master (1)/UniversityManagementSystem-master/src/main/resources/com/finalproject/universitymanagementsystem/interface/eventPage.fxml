@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <HBox prefHeight="150.0" prefWidth="800.0" style="-fx-border-color: ff3d3d; -fx-border-width: 5;">
+            <children>
+                <ImageView fitHeight="140.0" fitWidth="790.0" />
+            </children>
+        </HBox>
+        <VBox maxHeight="Infinity" VBox.vgrow="ALWAYS">
+            <children>
+                <HBox prefHeight="40.0" prefWidth="796.0">
+                    <children>
+                        <Pane prefHeight="50.0" prefWidth="20.0" />
+                        <Label prefHeight="40.0" prefWidth="150.0" text="Event Name:">
+                            <font>
+                                <Font name="Calibri Bold" size="24.0" />
+                            </font>
+                        </Label>
+                        <Label maxWidth="Infinity" prefHeight="40.0" prefWidth="230.0" HBox.hgrow="ALWAYS">
+                            <font>
+                                <Font name="Calibri Bold" size="24.0" />
+                            </font>
+                        </Label>
+                        <Label prefHeight="40.0" prefWidth="140.0" text="Event Code:">
+                            <font>
+                                <Font name="Calibri Bold" size="24.0" />
+                            </font>
+                        </Label>
+                        <Label maxWidth="Infinity" prefHeight="40.0" prefWidth="250.0" HBox.hgrow="ALWAYS">
+                            <font>
+                                <Font name="Calibri Bold" size="24.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+                <HBox prefHeight="30.0" prefWidth="796.0">
+                    <children>
+                        <Pane prefHeight="50.0" prefWidth="20.0" />
+                        <Label prefHeight="40.0" prefWidth="90.0" text="Location:">
+                            <font>
+                                <Font name="Calibri Bold" size="20.0" />
+                            </font>
+                        </Label>
+                        <Label maxWidth="Infinity" prefHeight="40.0" prefWidth="290.0" HBox.hgrow="ALWAYS">
+                            <font>
+                                <Font name="Calibri Bold" size="20.0" />
+                            </font>
+                        </Label>
+                        <Label prefHeight="40.0" prefWidth="120.0" text="Date &amp; Time:">
+                            <font>
+                                <Font name="Calibri Bold" size="20.0" />
+                            </font>
+                        </Label>
+                        <Label maxWidth="Infinity" prefHeight="40.0" prefWidth="270.0" HBox.hgrow="ALWAYS">
+                            <font>
+                                <Font name="Calibri Bold" size="20.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+                <HBox prefHeight="30.0" prefWidth="796.0">
+                    <children>
+                        <Pane prefHeight="50.0" prefWidth="20.0" />
+                        <Label prefHeight="40.0" prefWidth="90.0" text="Cost:">
+                            <font>
+                                <Font name="Calibri Bold" size="20.0" />
+                            </font>
+                        </Label>
+                        <Label maxWidth="Infinity" prefHeight="40.0" prefWidth="290.0" HBox.hgrow="ALWAYS">
+                            <font>
+                                <Font name="Calibri Bold" size="20.0" />
+                            </font>
+                        </Label>
+                        <Label prefHeight="40.0" prefWidth="120.0" text="Capacity:">
+                            <font>
+                                <Font name="Calibri Bold" size="20.0" />
+                            </font>
+                        </Label>
+                        <Label maxWidth="Infinity" prefHeight="40.0" prefWidth="270.0" HBox.hgrow="ALWAYS">
+                            <font>
+                                <Font name="Calibri Bold" size="20.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+                <HBox maxHeight="Infinity" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                    <children>
+                        <Pane prefHeight="264.0" prefWidth="20.0" />
+                        <VBox maxHeight="Infinity" maxWidth="Infinity" HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS">
+                            <children>
+                                <HBox>
+                                    <children>
+                                        <Label maxWidth="Infinity" prefHeight="30.0" prefWidth="218.0" text="Description:" HBox.hgrow="ALWAYS">
+                                            <font>
+                                                <Font name="Calibri Bold" size="20.0" />
+                                            </font>
+                                        </Label>
+                                        <Button disable="true" managed="false" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="Edit Event Details" visible="false">
+                                            <font>
+                                                <Font name="Calibri Bold" size="16.0" />
+                                            </font>
+                                        </Button>
+                                        <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="Register">
+                                            <font>
+                                                <Font name="Calibri Bold" size="16.0" />
+                                            </font>
+                                        </Button>
+                                    </children>
+                                </HBox>
+                                <Label alignment="TOP_LEFT" maxHeight="Infinity" maxWidth="Infinity" prefHeight="173.0" prefWidth="776.0" wrapText="true" VBox.vgrow="ALWAYS">
+                                    <font>
+                                        <Font name="Calibri" size="20.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</VBox>

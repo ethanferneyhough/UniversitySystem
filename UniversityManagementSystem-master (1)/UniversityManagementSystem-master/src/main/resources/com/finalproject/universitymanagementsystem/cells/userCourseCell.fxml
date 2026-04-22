@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="800.0" style="-fx-background-color: efefef; -fx-border-color: a0a0a0; -fx-border-width: 2;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.finalproject.universitymanagementsystem.CellControllers.UserCourseController">
+   <children>
+      <Pane prefHeight="100.0" prefWidth="20.0" />
+      <VBox maxWidth="Infinity" prefHeight="146.0" prefWidth="400.0" HBox.hgrow="ALWAYS">
+         <children>
+            <Label fx:id="courseName" maxWidth="Infinity" prefHeight="49.0" prefWidth="400.0">
+               <font>
+                  <Font name="Calibri Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="courseCode" maxWidth="Infinity" prefHeight="49.0" prefWidth="380.0">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="courseCapacity" maxWidth="Infinity" prefHeight="49.0" prefWidth="400.0">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Pane prefHeight="96.0" prefWidth="20.0" />
+      <VBox prefHeight="146.0" prefWidth="400.0">
+         <children>
+            <HBox prefHeight="30.0" prefWidth="356.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="100.0" text="Subject:">
+                     <font>
+                        <Font name="Calibri Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="courseSubject" maxWidth="Infinity" prefHeight="29.0" prefWidth="288.0" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="Calibri" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="30.0" prefWidth="356.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="100.0" text="Teacher:">
+                     <font>
+                        <Font name="Calibri Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="courseTeacher" maxWidth="Infinity" prefHeight="29.0" prefWidth="288.0" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="Calibri" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="30.0" prefWidth="356.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="100.0" text="Lecture Time:">
+                     <font>
+                        <Font name="Calibri Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="courseLecture" maxWidth="Infinity" prefHeight="29.0" prefWidth="288.0" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="Calibri" size="16.0" />
+                     </font>
+                  </Label>
+               </children></HBox>
+            <HBox prefHeight="30.0" prefWidth="356.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="100.0" text="Final Exam:">
+                     <font>
+                        <Font name="Calibri Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="courseExam" maxWidth="Infinity" prefHeight="29.0" prefWidth="288.0" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="Calibri" size="16.0" />
+                     </font>
+                  </Label>
+               </children></HBox>
+            <HBox prefHeight="30.0" prefWidth="356.0">
+               <children>
+                  <Label prefHeight="29.0" prefWidth="100.0" text="Location:">
+                     <font>
+                        <Font name="Calibri Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="courseLocation" maxWidth="Infinity" prefHeight="29.0" prefWidth="288.0" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="Calibri" size="16.0" />
+                     </font>
+                  </Label>
+               </children></HBox>
+         </children></VBox>
+   </children>
+</HBox>

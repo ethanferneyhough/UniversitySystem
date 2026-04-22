@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.finalproject.universitymanagementsystem.LoginController">
+   <children>
+      <StackPane prefHeight="66.0" prefWidth="400.0" style="-fx-background-color: ff3b3b;">
+         <children>
+            <Label text="University Management System">
+               <font>
+                  <Font name="Artifakt Element Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+      <HBox alignment="CENTER" prefHeight="60.0" prefWidth="600.0" translateY="10.0">
+         <children>
+            <Label alignment="CENTER" text="User Authentication">
+               <font>
+                  <Font name="Times New Roman" size="22.0" />
+               </font>
+            </Label>
+         </children></HBox>
+      <HBox alignment="CENTER" prefHeight="75.0" prefWidth="600.0">
+         <children>
+            <Label text="ID:  ">
+               <font>
+                  <Font name="Times New Roman" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="idBar"  onAction="#IdAction" prefHeight="30.0" prefWidth="240.0" promptText="Enter ID">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="75.0" prefWidth="600.0" translateX="-30.0" translateY="-20.0">
+         <children>
+            <Label text=" Password:  ">
+               <font>
+                  <Font name="Times New Roman" size="20.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="pwBar" onAction="#PasswordAction" prefHeight="30.0" prefWidth="240.0" promptText="Enter Password">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </PasswordField>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="60.0" prefWidth="600.0" translateY="-25.0">
+         <children>
+            <Button fx:id="loginButton" mnemonicParsing="false" onAction="#OnLoginButton" text="Log In">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.finalproject.universitymanagementsystem.ListController">
+    <children>
+        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="800.0">
+            <children>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0" text="Add Course">
+               <font>
+                  <Font name="Calibri Bold" size="24.0" />
+               </font>
+            </Button>
+                <Label alignment="CENTER" maxWidth="Infinity" prefHeight="50.0" prefWidth="600.0" style="-fx-border-color: a0a0a0; -fx-border-radius: 5; -fx-background-color: efefef; -fx-background-radius: 5;" text="All Courses" textAlignment="CENTER" HBox.hgrow="ALWAYS">
+                    <font>
+                        <Font name="Calibri Bold" size="24.0" />
+                    </font></Label>
+            </children>
+        </HBox>
+        <HBox maxHeight="Infinity" prefHeight="450.0" prefWidth="800.0" VBox.vgrow="ALWAYS">
+            <children>
+                <ListView fx:id="adminCourseList" maxHeight="Infinity" maxWidth="Infinity" prefHeight="462.0" prefWidth="400.0" HBox.hgrow="ALWAYS" />
+            </children>
+        </HBox>
+    </children>
+</VBox>

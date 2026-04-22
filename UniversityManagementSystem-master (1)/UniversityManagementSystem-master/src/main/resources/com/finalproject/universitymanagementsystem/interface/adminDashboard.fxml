@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+          <HBox alignment="CENTER" prefHeight="75.0" prefWidth="800.0">
+              <children>
+                  <Label alignment="CENTER" maxWidth="Infinity" prefHeight="99.0" prefWidth="250.0" style="-fx-border-color: ff3d3d; -fx-border-width: 2; -fx-border-radius: 15; -fx-background-color: ededed; -fx-background-radius: 15;" text="0 Total Students" textAlignment="CENTER" HBox.hgrow="ALWAYS">
+                      <font>
+                          <Font name="Calibri Bold" size="18.0" />
+                      </font>
+                  </Label>
+                  <Label alignment="CENTER" maxWidth="Infinity" prefHeight="99.0" prefWidth="250.0" style="-fx-border-color: ff3d3d; -fx-border-width: 2; -fx-border-radius: 15; -fx-background-color: ededed; -fx-background-radius: 15;" text="0 Total Courses" textAlignment="CENTER" HBox.hgrow="ALWAYS">
+                      <font>
+                          <Font name="Calibri Bold" size="20.0" />
+                      </font>
+                  </Label>
+                  <Label alignment="CENTER" maxWidth="Infinity" prefHeight="100.0" prefWidth="250.0" style="-fx-border-color: ff3d3d; -fx-border-width: 2; -fx-border-radius: 15; -fx-background-color: ededed; -fx-background-radius: 15;" text="0 Total Faculties" textAlignment="CENTER" HBox.hgrow="ALWAYS">
+                      <font>
+                          <Font name="Calibri Bold" size="18.0" />
+                      </font>
+                  </Label>
+                  <Label alignment="CENTER" maxWidth="Infinity" prefHeight="100.0" prefWidth="250.0" style="-fx-border-color: ff3d3d; -fx-border-width: 2; -fx-border-radius: 15; -fx-background-color: edededed; -fx-background-radius: 15;" text="0 Total Events" textAlignment="CENTER" HBox.hgrow="ALWAYS">
+                      <font>
+                          <Font name="Calibri Bold" size="20.0" />
+                      </font>
+                  </Label>
+              </children>
+          </HBox>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="800.0">
+         <children>
+            <Button maxWidth="Infinity" mnemonicParsing="false" prefHeight="42.0" prefWidth="200.0" text="Manage Students" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Button>
+            <Button maxWidth="Infinity" mnemonicParsing="false" prefHeight="42.0" prefWidth="200.0" text="Manage Courses" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Button>
+            <Button maxWidth="Infinity" mnemonicParsing="false" prefHeight="42.0" prefWidth="200.0" text="Manage Faculties" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button maxWidth="Infinity" mnemonicParsing="false" prefHeight="42.0" prefWidth="200.0" text="Manage Events" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+          <HBox alignment="CENTER" prefHeight="40.0" prefWidth="1000.0">
+              <children>
+                  <Label alignment="CENTER" maxWidth="Infinity" prefHeight="40.0" prefWidth="400.0" style="-fx-border-color: a0a0a0; -fx-border-radius: 5; -fx-background-color: efefef; -fx-background-radius: 5;" text="Recent Activities" textAlignment="CENTER" HBox.hgrow="ALWAYS">
+                      <font>
+                          <Font name="Calibri Bold" size="20.0" />
+                      </font>
+                  </Label>
+              </children>
+          </HBox>
+          <HBox maxHeight="Infinity" prefHeight="360.0" prefWidth="800.0" VBox.vgrow="ALWAYS">
+         <children>
+            <ListView maxHeight="Infinity" maxWidth="Infinity" prefHeight="350.0" prefWidth="800.0" HBox.hgrow="ALWAYS" />
+         </children>
+          </HBox>
+    </children>
+</VBox>

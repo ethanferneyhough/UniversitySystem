@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="444.0" prefWidth="411.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.finalproject.universitymanagementsystem.FormController">
+   <children>
+      <TextField fx:id="AddFacultyName" layoutX="131.0" layoutY="102.0" onAction="#onAddFacultyName" />
+      <TextField fx:id="AddFacultyID" layoutX="131.0" layoutY="159.0" onAction="#onAddFacultyID" />
+      <TextField fx:id="AddFacultyOffice" layoutX="131.0" layoutY="215.0" onAction="#onAddFacultyOffice" />
+      <TextField fx:id="AddFacultyDegree" layoutX="131.0" layoutY="262.0" onAction="#onAddFacultyDegree" />
+      <TextField fx:id="AddFacultyEmail" layoutX="131.0" layoutY="319.0" onAction="#onAddFacultyEmail" />
+      <TextField fx:id="AddFacultyResearch" layoutX="131.0" layoutY="375.0" onAction="#onAddFacultyResearch" />
+      <Text fx:id="AddStudentTitle" layoutX="154.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Faculty">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="184.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:" />
+      <Text layoutX="174.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Faculty ID:" />
+      <Text layoutX="162.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Office Location:" />
+      <Text layoutX="183.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Degree:" />
+      <Text layoutX="189.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email:" />
+      <Text layoutX="159.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Research Interest:" />
+      <Button fx:id="AddFacultyButton" layoutX="187.0" layoutY="405.0" mnemonicParsing="false" onAction="#onAddFacultyButton" text="Add" />
+   </children>
+</Pane>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" prefHeight="230.0" prefWidth="800.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="255.0" prefWidth="230.0">
+               <children>
+                  <AnchorPane prefHeight="245.0" prefWidth="245.0">
+                     <children>
+                        <StackPane layoutX="15.0" layoutY="27.0" prefHeight="215.0" prefWidth="215.0" style="-fx-border-color: ff3d3d; -fx-border-width: 5;" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                           <children>
+                              <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                           </children>
+                        </StackPane>
+                     </children>
+                  </AnchorPane>
+                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="235.0" text="Change Profile Picture" />
+               </children>
+            </VBox>
+            <VBox maxWidth="Infinity" prefHeight="250.0" prefWidth="570.0" style="-fx-border-color: a0a0a0; -fx-border-width: 2; -fx-border-radius: 5;" HBox.hgrow="ALWAYS">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="566.0">
+                     <children>
+                        <Pane prefHeight="40.0" prefWidth="20.0" />
+                        <Label prefHeight="40.0" prefWidth="120.0" text="Name: ">
+                           <font>
+                              <Font name="Calibri" size="30.0" />
+                           </font>
+                        </Label>
+                        <Label maxWidth="Infinity" prefHeight="30.0" prefWidth="430.0" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font name="Calibri" size="30.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="20.0" prefWidth="570.0">
+                     <children>
+                        <Pane prefHeight="30.0" prefWidth="20.0" />
+                        <Label prefHeight="20.0" prefWidth="120.0" text="ID: ">
+                           <font>
+                              <Font name="Calibri" size="16.0" />
+                           </font>
+                        </Label>
+                        <Label maxWidth="Infinity" prefHeight="20.0" prefWidth="430.0" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font name="Calibri" size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="20.0" prefWidth="570.0">
+                     <children>
+                        <Pane prefHeight="35.0" prefWidth="20.0" />
+                        <Label prefHeight="20.0" prefWidth="120.0" text="Password: ">
+                           <font>
+                              <Font name="Calibri" size="16.0" />
+                           </font>
+                        </Label>
+                        <Label maxWidth="Infinity" prefHeight="20.0" prefWidth="265.0" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font name="Calibri" size="16.0" />
+                           </font>
+                        </Label>
+                        <Button mnemonicParsing="false" prefHeight="20.0" prefWidth="150.0" text="Change Password">
+                           <font>
+                              <Font name="Calibri" size="10.0" />
+                           </font></Button>
+                        <Pane prefHeight="35.0" prefWidth="15.0" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="20.0" prefWidth="570.0">
+                     <children>
+                        <Pane prefHeight="30.0" prefWidth="20.0" />
+                        <Label prefHeight="20.0" prefWidth="120.0" text="Email:">
+                           <font>
+                              <Font name="Calibri" size="16.0" />
+                           </font>
+                        </Label>
+                        <Label maxWidth="Infinity" prefHeight="20.0" prefWidth="430.0" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font name="Calibri" size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="20.0" prefWidth="570.0">
+                     <children>
+                        <Pane prefHeight="30.0" prefWidth="20.0" />
+                        <Label prefHeight="20.0" prefWidth="120.0" text="Telephone:">
+                           <font>
+                              <Font name="Calibri" size="16.0" />
+                           </font>
+                        </Label>
+                        <Label maxWidth="Infinity" prefHeight="20.0" prefWidth="430.0" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font name="Calibri" size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="20.0" prefWidth="570.0">
+                     <children>
+                        <Pane prefHeight="30.0" prefWidth="20.0" />
+                        <Label prefHeight="20.0" prefWidth="120.0" text="Address:">
+                           <font>
+                              <Font name="Calibri" size="16.0" />
+                           </font>
+                        </Label>
+                        <Label maxWidth="Infinity" prefHeight="20.0" prefWidth="430.0" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font name="Calibri" size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="20.0" prefWidth="570.0">
+                     <children>
+                        <Pane prefHeight="30.0" prefWidth="20.0" />
+                        <Label prefHeight="20.0" prefWidth="120.0" text="Academic Level:">
+                           <font>
+                              <Font name="Calibri" size="16.0" />
+                           </font>
+                        </Label>
+                        <Label maxWidth="Infinity" prefHeight="20.0" prefWidth="265.0" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font name="Calibri" size="16.0" />
+                           </font>
+                        </Label>
+                        <Button mnemonicParsing="false" prefHeight="20.0" prefWidth="150.0" text="View Grade History">
+                           <font>
+                              <Font name="Calibri" size="10.0" />
+                           </font>
+                        </Button>
+                        <Pane prefHeight="25.0" prefWidth="15.0" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="20.0" prefWidth="570.0">
+                     <children>
+                        <Pane prefHeight="30.0" prefWidth="20.0" />
+                        <Label prefHeight="20.0" prefWidth="120.0" text="Thesis Title:">
+                           <font>
+                              <Font name="Calibri" size="16.0" />
+                           </font>
+                        </Label>
+                        <Label maxWidth="Infinity" prefHeight="20.0" prefWidth="430.0" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font name="Calibri" size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="20.0" prefWidth="570.0">
+                     <children>
+                        <Pane prefHeight="30.0" prefWidth="20.0" />
+                        <Label prefHeight="20.0" prefWidth="120.0" text="Current Semester:">
+                           <font>
+                              <Font name="Calibri" size="16.0" />
+                           </font>
+                        </Label>
+                        <Label maxWidth="Infinity" prefHeight="20.0" prefWidth="430.0" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font name="Calibri" size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="20.0" prefWidth="570.0">
+                     <children>
+                        <Pane prefHeight="30.0" prefWidth="20.0" />
+                        <Label prefHeight="20.0" prefWidth="120.0" text="Program Progress:">
+                           <font>
+                              <Font name="Calibri" size="16.0" />
+                           </font>
+                        </Label>
+                        <ProgressBar maxWidth="Infinity" prefHeight="20.0" prefWidth="430.0" progress="0.0" HBox.hgrow="ALWAYS" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="65.0" prefHeight="20.0" prefWidth="570.0">
+                     <children>
+                        <Pane prefHeight="35.0" prefWidth="20.0" />
+                        <Label prefHeight="20.0" prefWidth="120.0" text="Payment Status:">
+                           <font>
+                              <Font name="Calibri" size="16.0" />
+                           </font>
+                        </Label>
+                        <Label maxWidth="Infinity" prefHeight="20.0" prefWidth="265.0" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font name="Calibri" size="16.0" />
+                           </font>
+                        </Label>
+                        <Button mnemonicParsing="false" prefHeight="20.0" prefWidth="150.0" text="Click for Details">
+                           <font>
+                              <Font name="Calibri" size="10.0" />
+                           </font>
+                        </Button>
+                        <Pane prefHeight="35.0" prefWidth="15.0" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children></HBox>
+      <Label alignment="CENTER" maxWidth="Infinity" prefHeight="40.0" prefWidth="400.0" style="-fx-background-color: efefef; -fx-border-color: a0a0a0;" text="Enrolled Courses:" textAlignment="CENTER">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Label>
+      <ListView maxHeight="Infinity" maxWidth="Infinity" prefHeight="210.0" prefWidth="400.0" />
+   </children>
+</VBox>

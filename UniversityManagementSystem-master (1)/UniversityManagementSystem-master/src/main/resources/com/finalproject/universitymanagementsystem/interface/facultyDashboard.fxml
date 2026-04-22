@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+          <HBox alignment="CENTER" prefHeight="75.0" prefWidth="800.0">
+              <children>
+                  <Label alignment="CENTER" maxWidth="Infinity" prefHeight="75.0" prefWidth="267.0" style="-fx-border-color: a0a0a0; -fx-border-radius: 5; -fx-background-color: efefef; -fx-background-radius: 5;" text="Your Courses" textAlignment="CENTER" HBox.hgrow="ALWAYS">
+                      <font>
+                          <Font name="Calibri Bold" size="20.0" />
+                      </font>
+                  </Label>
+            <Label alignment="CENTER" maxWidth="Infinity" prefHeight="75.0" prefWidth="267.0" style="-fx-border-color: a0a0a0; -fx-border-radius: 5; -fx-background-color: efefef; -fx-background-radius: 5;" text="Upcoming Schedules" textAlignment="CENTER" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="Calibri Bold" size="20.0" />
+               </font>
+            </Label>
+                  <Label alignment="CENTER" maxWidth="Infinity" prefHeight="75.0" prefWidth="267.0" style="-fx-border-color: a0a0a0; -fx-border-radius: 5; -fx-background-color: efefef; -fx-background-radius: 5;" text="Related Events" textAlignment="CENTER" HBox.hgrow="ALWAYS">
+                      <font>
+                          <Font name="Calibri Bold" size="20.0" />
+                      </font>
+                  </Label>
+              </children>
+          </HBox>
+          <HBox alignment="CENTER" maxHeight="Infinity" prefHeight="425.0" prefWidth="800.0" VBox.vgrow="ALWAYS">
+              <children>
+                  <ListView maxHeight="Infinity" maxWidth="Infinity" prefHeight="300.0" prefWidth="267.0" HBox.hgrow="ALWAYS" />
+                  <ListView maxHeight="Infinity" maxWidth="Infinity" prefHeight="400.0" prefWidth="267.0" HBox.hgrow="ALWAYS" />
+                  <ListView maxHeight="Infinity" maxWidth="Infinity" prefHeight="360.0" prefWidth="267.0" HBox.hgrow="ALWAYS" />
+              </children>
+          </HBox>
+    </children>
+</VBox>

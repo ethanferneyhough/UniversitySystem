@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox xmlns="http://javafx.com/javafx/17.0.12"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.finalproject.universitymanagementsystem.CellControllers.AdminFacultyCellController"
+      alignment="CENTER"
+      prefHeight="150.0"
+      prefWidth="800.0"
+      style="-fx-background-color: efefef; -fx-border-color: a0a0a0; -fx-border-width: 2;">
+
+    <VBox alignment="CENTER" prefHeight="146.0" prefWidth="146.0">
+        <AnchorPane prefHeight="146.0" prefWidth="146.0">
+            <StackPane layoutX="15.0" layoutY="27.0" prefHeight="136.0" prefWidth="136.0"
+                       style="-fx-border-color: ff3d3d; -fx-border-width: 5;"
+                       AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0"
+                       AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+                <ImageView fx:id="imageView" fitHeight="126.0" fitWidth="126.0" pickOnBounds="true" preserveRatio="true" />
+            </StackPane>
+        </AnchorPane>
+    </VBox>
+
+    <VBox maxWidth="Infinity" prefHeight="150.0" prefWidth="566.0"
+          style="-fx-border-color: a0a0a0; -fx-border-width: 2; -fx-border-radius: 5;"
+          HBox.hgrow="ALWAYS">
+        <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="562.0">
+            <children>
+                <Pane prefHeight="50.0" prefWidth="20.0" />
+                <Label prefHeight="50.0" prefWidth="119.0" text="Name: ">
+                    <font>
+                        <Font name="Calibri" size="30.0" />
+                    </font>
+                </Label>
+                <Label fx:id="nameLabel" maxWidth="Infinity" prefHeight="50.0" prefWidth="426.0" HBox.hgrow="ALWAYS">
+                    <font>
+                        <Font name="Calibri" size="30.0" />
+                    </font>
+                </Label>
+            </children>
+        </HBox>
+        <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="570.0">
+            <children>
+                <Pane prefHeight="50.0" prefWidth="20.0" />
+                <Label prefHeight="50.0" prefWidth="120.0" text="Courses:">
+                    <font>
+                        <Font name="Calibri" size="30.0" />
+                    </font>
+                </Label>
+                <Label fx:id="coursesLabel" maxWidth="Infinity" prefHeight="50.0" prefWidth="430.0" HBox.hgrow="ALWAYS">
+                    <font>
+                        <Font name="Calibri" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </HBox>
+        <HBox prefHeight="50.0" prefWidth="646.0">
+            <children>
+                <Button maxWidth="Infinity" mnemonicParsing="false" onAction="#openProfile" prefHeight="47.0" prefWidth="323.0" text="View/Edit Profile" HBox.hgrow="ALWAYS">
+                    <font>
+                        <Font name="Calibri Bold" size="20.0" />
+                    </font>
+                </Button>
+                <Button maxWidth="Infinity" mnemonicParsing="false" onAction="#deleteFaculty" prefHeight="47.0" prefWidth="323.0" text="Delete Faculty" HBox.hgrow="ALWAYS">
+                    <font>
+                        <Font name="Calibri Bold" size="20.0" />
+                    </font>
+                </Button>
+            </children>
+        </HBox>
+    </VBox>
+</HBox>

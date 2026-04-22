@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="684.0" prefWidth="723.0" spacing="20.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.finalproject.universitymanagementsystem.FormController">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <children>
+      <Label fx:id="welcomeText" prefHeight="17.0" prefWidth="156.0" text="Add/Edit Course Info Below:" />
+      <TextField fx:id="AddEditCourseCode" onAction="#onAddEditCourseCode" text="Type course code...">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="100.0" right="100.0" />
+         </VBox.margin>
+      </TextField>
+      <Line endX="100.0" startX="-100.0" />
+      <TextField fx:id="AddEditCourseName" onAction="#onAddEditCourseName" text="Type course name...">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="100.0" right="100.0" />
+         </VBox.margin>
+      </TextField>
+      <Line endX="100.0" startX="-100.0" />
+      <TextField fx:id="AddEditCourseSubjectCode" onAction="#onAddEditCourseSubjectCode" text="Type subject code...">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="100.0" right="100.0" />
+         </VBox.margin>
+      </TextField>
+      <Line endX="100.0" startX="-100.0" />
+      <TextField fx:id="AddEditCourseSecNum" onAction="#onAddEditCourseSecNum" text="Type section number...">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="100.0" right="100.0" />
+         </VBox.margin>
+      </TextField>
+      <Line endX="100.0" startX="-100.0" />
+      <TextField fx:id="AddEditCourseCap" onAction="#onAddEditCourseCap" text="Type capacity...">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="100.0" right="100.0" />
+         </VBox.margin>
+      </TextField>
+      <Line endX="100.0" startX="-100.0" />
+      <TextField fx:id="AddEditCourseLectureTime" onAction="#onAddEditCourseLectureTime" text="Type lecture time...">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="100.0" right="100.0" />
+         </VBox.margin>
+      </TextField>
+      <Line endX="100.0" startX="-100.0" />
+      <TextField fx:id="AddEditCourseFinalExamTime" onAction="#onAddEditCourseFinlExamTime" text="Type final exam date/time...">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="100.0" right="100.0" />
+         </VBox.margin>
+      </TextField>
+      <Line endX="100.0" startX="-100.0" />
+      <TextField fx:id="AddEditCourseLocation" onAction="#onAddEditCourseLocation" text="Type location...">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="100.0" right="100.0" />
+         </VBox.margin>
+      </TextField>
+      <Line endX="100.0" startX="-100.0" />
+      <TextField fx:id="AddEditCourseTeacher" onAction="#onAddEditCourseTeacher" text="Type teacher name...">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="100.0" right="100.0" />
+         </VBox.margin>
+      </TextField>
+      <Button fx:id="AddEditCourseSubmit" mnemonicParsing="false" onAction="#onAddEditCourseSubmit" text="Submit" />
+   </children>
+</VBox>

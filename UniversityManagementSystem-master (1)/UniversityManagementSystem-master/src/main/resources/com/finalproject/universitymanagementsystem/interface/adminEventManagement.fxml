@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:controller="com.finalproject.universitymanagementsystem.ListController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <HBox alignment="CENTER" prefHeight="75.0" prefWidth="800.0">
+            <children>
+                <Pane prefHeight="75.0" prefWidth="15.0" />
+                <Label prefHeight="26.0" prefWidth="180.0" text="Search Events:  ">
+                    <font>
+                        <Font name="Calibri" size="22.0" />
+                    </font>
+                </Label>
+                <TextField maxWidth="Infinity" prefHeight="50.0" prefWidth="500.0" translateX="-25.0" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font></TextField>
+            </children></HBox>
+        <HBox alignment="CENTER" prefHeight="40.0" prefWidth="800.0">
+            <children>
+                <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" text="Add Event">
+                    <font>
+                        <Font name="Calibri Bold" size="20.0" />
+                    </font></Button>
+                <Label alignment="CENTER" maxWidth="Infinity" prefHeight="40.0" prefWidth="300.0" style="-fx-border-color: a0a0a0; -fx-background-color: efefef;" text="Event List" textAlignment="CENTER" HBox.hgrow="ALWAYS">
+                    <font>
+                        <Font name="Calibri Bold" size="20.0" />
+                    </font></Label>
+            <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" text="Calendar View">
+               <font>
+                  <Font name="Calibri Bold" size="20.0" />
+               </font>
+            </Button>
+            </children>
+        </HBox>
+          <ListView fx:id="adminEventList" maxHeight="Infinity" maxWidth="Infinity" prefHeight="385.0" prefWidth="500.0" />
+    </children>
+</VBox>

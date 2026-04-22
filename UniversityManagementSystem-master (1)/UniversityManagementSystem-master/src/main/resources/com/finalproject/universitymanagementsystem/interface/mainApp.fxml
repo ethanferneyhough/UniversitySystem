@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1000" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.finalproject.universitymanagementsystem.AppController">
+   <left>
+      <StackPane fx:id="sideMenu" disable="true" managed="false" prefHeight="449.0" prefWidth="200.0" style="-fx-background-color: #ff3d3d;" visible="false" BorderPane.alignment="CENTER">
+         <children>
+            <VBox disable="true" managed="false" prefHeight="450.0" prefWidth="200.0" visible="false">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#openDashboard" prefHeight="30.0" prefWidth="200.0" text="Dashboard">
+                     <font>
+                        <Font name="ArtifaktElement-Regular" size="23.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="subjectButton" mnemonicParsing="false" onAction="#openSubject" prefHeight="50.0" prefWidth="200.0" text="Subject Management">
+                     <font>
+                        <Font name="ArtifaktElement-Regular" size="17.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="courseButton" mnemonicParsing="false" onAction="#openCourse" prefHeight="50.0" prefWidth="200.0" text="Course Management">
+                     <font>
+                        <Font name="ArtifaktElement-Regular" size="17.0" />
+                     </font>
+                  </Button>
+                        <Button fx:id="studentButton" mnemonicParsing="false" onAction="#openStudent" prefHeight="50.0" prefWidth="200.0" text="Student Management">
+                     <font>
+                        <Font name="ArtifaktElement-Regular" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="facultyButton" mnemonicParsing="false" onAction="#openFaculty" prefHeight="50.0" prefWidth="200.0" text="Faculty Management">
+                     <font>
+                        <Font name="ArtifaktElement-Regular" size="17.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="eventButton" mnemonicParsing="false" onAction="#openEvent" prefHeight="50.0" prefWidth="200.0" text="Event Management">
+                     <font>
+                        <Font name="ArtifaktElement-Regular" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </StackPane>
+   </left>
+   <top>
+      <VBox prefHeight="150.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
+         <children>
+            <StackPane prefHeight="100.0" prefWidth="1000.0" style="-fx-border-color: #ff3d3d; -fx-border-width: 10;">
+               <children>
+                  <Button ellipsisString="" maxWidth="Infinity" mnemonicParsing="false" pickOnBounds="false">
+                     <graphic>
+                        <VBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="1000.0">
+                           <children>
+                              <Label text="UMS Project" textFill="#ff3d3d" translateX="20.0">
+                                 <font>
+                                    <Font name="Artifakt Element Bold" size="50.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </graphic>
+                  </Button>
+               </children>
+            </StackPane>
+            <HBox prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="menuButton" mnemonicParsing="false" onAction="#toggleMenu" prefHeight="50.0" prefWidth="200.0" text="Open Menu &gt;">
+                     <font>
+                        <Font name="Artifakt Element Bold" size="24.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="currentModule" maxWidth="Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="600.0" style="-fx-border-color: f0f0f0; -fx-border-width: 5;" text="Dashboard" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="Artifakt Element Bold" size="19.0" />
+                     </font></Button>
+                  <Button fx:id="logOutButton" mnemonicParsing="false" onAction="#logOut" prefHeight="50.0" prefWidth="200.0" text="Log Out">
+                     <font>
+                        <Font name="Calibri" size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </top>
+   <center>
+      <VBox fx:id="showSubScene" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

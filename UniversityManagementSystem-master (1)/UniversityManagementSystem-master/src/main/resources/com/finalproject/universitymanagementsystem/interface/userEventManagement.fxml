@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:controller="com.finalproject.universitymanagementsystem.ListController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="800.0" style="-fx-background-color: a0a0a0; -fx-border-color: fefefe;">
+            <children>
+                <Label alignment="CENTER" maxWidth="Infinity" prefHeight="47.0" prefWidth="200.0" style="-fx-border-color: a0a0a0; -fx-border-radius: 5; -fx-background-color: efefef; -fx-background-radius: 5;" text="List of Events" textAlignment="CENTER" HBox.hgrow="ALWAYS">
+                    <font>
+                        <Font name="Calibri Bold" size="20.0" />
+                    </font>
+                </Label>
+            <Button mnemonicParsing="false" prefHeight="47.0" prefWidth="200.0" text="Sort Registered">
+               <font>
+                  <Font name="Calibri Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0" text="Calendar View">
+               <font>
+                  <Font name="Calibri Bold" size="20.0" />
+               </font>
+            </Button>
+            </children>
+        </HBox>
+          <ListView fx:id="userEventList" maxHeight="Infinity" maxWidth="Infinity" prefHeight="450.0" prefWidth="250.0" />
+    </children>
+</VBox>
